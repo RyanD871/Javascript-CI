@@ -1,6 +1,7 @@
 # Add configuration here!
 #### Working version one
 
+```YAML
 version: 2.1
 jobs:                                         
   build:                               
