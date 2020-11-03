@@ -1,1 +1,21 @@
 # Add configuration here!
+#### Working version one
+
+```YAML
+version: 2.1
+jobs:                                         
+  build:                               
+    docker:                                   
+      - image: circleci/node:8
+    steps:
+        - checkout
+        - run:
+            name: Install Frontend Environment
+            command: npm ci
+        - run:
+            name: Run tests
+            command: npm test
+```
+</p>
+
+<p markdown="1">
